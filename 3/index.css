@@ -1,0 +1,218 @@
+@charset "UTF-8";
+
+* { 
+    font-family: "맑은 고딕", "고딕", "돋움";   
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-style:normal;
+    text-decoration: none;
+    color: #000;
+}
+
+li {
+    display: block;
+    float: left;
+}
+
+header {
+    width: auto;
+}
+
+#header_top {
+    width: 1200px;
+    height: 90px;
+    margin: 40px auto auto auto;
+}
+
+#logo a {
+    float: left;
+    width: 300px;
+    height: 90px;
+}
+
+#logo a:hover {
+    opacity: 0.5;
+}
+
+#header_right a {
+    float: right;
+    width: 900px;
+    height: 90px;
+}
+
+#gnb {
+    float: right;
+    height: 15px;
+    width: 350px;
+}
+
+#gnb a {
+    display: block;
+    height: 15px;
+    width: 69px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 15px;
+}
+
+#gnb a:hover {
+    color: #ddd;
+}
+
+#header_bottom {
+    width: auto;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+nav a {
+    display: block;
+    height: 40px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ddd;
+    transform: scale(1.1)
+}
+
+section {
+    width: auto;
+    margin: 0 auto;
+}
+
+#banner {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+#banner li {
+    width: 25%;
+    height: 180px;
+}
+
+#banner a {
+    display: block;
+    border: 1px solid #ddd;
+    width: 250px;
+    height: 130px;
+    position: relative;
+    top: 25%;
+    left: 5%
+}
+
+#banner a:hover {
+    border: 1px solid #ddd;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#banner_1 {
+    background: url(./02.png)
+}
+
+#banner_2 {
+    background: url(./02.png)
+}
+
+#banner_3 {
+    background: url(./02.png)
+}
+
+#banner_4 {
+    background: url(./02.png)
+}
+
+#best_product {
+    width: 1200px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#best_product strong, p {
+    height: 30px;
+    font-size: 15px;
+    margin: 30px auto;
+}
+
+#list {
+    width: 100%;
+    font-size: 0;
+    line-height: 1;
+}
+
+#list li {
+    margin: 0 0 0 70px;
+}
+
+.caption {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: rgba(221, 221, 221, 0.5);
+    /* 0, 0, 0, 투명도 */
+    opacity: 0;
+    transform: translateY(-300px);
+    /* caption에 박스를 씌운것 */
+}
+
+.caption p {
+    padding-top: 100px;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+#list li:hover .caption {
+    opacity: 1; /* 마우스오버를 통해 오퍼시티를 줘서 보여지게 함 */
+}
+
+footer {
+    width: auto;
+    height: auto;
+    border-top: 1px solid #ddd;
+    margin: 0 auto;
+}
+
+#fnb {
+    width: 1200px;
+    height: 30px;
+    margin: 0 auto;
+}
+
+#fnb a {
+    display: block;
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+    margin: 0 15px 0 0;
+}
+
+#fnb a:hover {
+    color: #ddd;
+}
+
+address {
+    width: 1200px;
+    height: 50px;
+    margin: auto;
+}
+
+#copyright {
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+}
