@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS 반응형연습 3</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            #wrap {
+                width: 100%
+            }
+            header {
+                height: 150px;
+                background: #81c784;
+            }
+
+            aside {
+                width: 30%;
+                height: 700px;
+                float: left;
+                background: #66bb6a;
+            }
+
+            section {
+                width: 40%;
+                height: 700px;
+                float: left;
+                background: #4caf50;
+            }
+
+            article {
+                width: 30%;
+                height: 700px;
+                float: left;
+                background: #43a047;
+            }
+
+            footer {
+                clear: both;
+                height: 150px;
+                background: #388e3c
+            }
+
+            @media (max-width: 1200px) {
+                aside {
+                    width: 40%;
+                }
+                section {
+                    width: 60%;
+                }
+                article {
+                    width: 100%;
+                    height: 300px;
+                }
+            }
+
+            @media (max-width: 768px) {
+                aside {
+                    width: 100%;
+                }
+                section {
+                    width: 100%;
+                }
+            }
+
+            @media (max-width: 500px){
+                header {
+                    height: 300px;
+                }
+                aside {
+                    height: 300px;
+                }
+                section {
+                    height: 300px;
+                }
+                footer {
+                    height: 300px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+        <header></header>
+        <aside></aside>
+        <section></section>
+        <article></article>
+        <footer></footer>
+        </div>
+    </body>
+</html>
+<!-- 출처: https://wtss.tistory.com/207 -->
